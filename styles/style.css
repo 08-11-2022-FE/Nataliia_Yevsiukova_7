@@ -12,6 +12,12 @@ body {
   font-size: 18px;
   line-height: 1.36;
 }
+.header {
+  height: 80px;
+}
+.header__container {
+  border-bottom: 1px solid #828282;
+}
 .menu__list {
   display: flex;
   justify-content: center;
