@@ -14,6 +14,11 @@ body {
 }
 .header {
   height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    opacity: 1;
 }
 .header__container {
   border-bottom: 1px solid #828282;
@@ -23,6 +28,9 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 25px 0;
+}
+.menu__list li:hover {
+  font-weight: 700;
 }
 .menu__list li {
   color: #828282;
@@ -155,4 +163,7 @@ body {
   color: #828282;
   width: 200px;
   text-align: center;
+}
+.footer__list li:hover {
+  opacity: 0.5;
 }
